@@ -12,14 +12,16 @@ body{
 }
 
 .app{
-  background-image: url('assets/coldcity-BG.jpg');
+  /* background-image: url('assets/coldcity-BG.jpg'); */
+  background-color: blue;
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out;
 }
 
 .app.warm {
-  background-image: url('assets/warm-BG.jpg');
+  /* background-image: url('assets/warm-BG.jpg'); */
+  background-color: red;
 }
 
 main{
